@@ -21,7 +21,7 @@ body{
   background: url(images/logo.png) no-repeat center;
   text-indent: -3000px;
 }
-a:link, a:visited{
+main a:link, a:visited{
   color: #b10333;
   padding: 2px;
 }
@@ -29,9 +29,11 @@ a:hover{
   color: #e50040;
 }
 ul{
+  list-style: none;
+}
+main ul{
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 header ul{
   margin-top: 30px;
@@ -41,7 +43,7 @@ header ul{
 header ul li{
   float: left;
 }
-header ul a{
+header ul a:link, header a:visited{
   font-size: 0.9em;
   display: block;
   padding: 0.5em 1.5em;
